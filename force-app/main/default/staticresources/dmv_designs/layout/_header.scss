@@ -1,0 +1,51 @@
+.dmv-header{
+    font-family:$font-family;
+    background:$primary;
+    color:$neutral-white;
+    font-size: $font-size-3;
+    font-weight: $font-weight-regular;
+
+    a{
+        color:$neutral-white;
+        font-weight: $font-weight-light;
+        text-decoration: none;
+    }
+
+    button{
+        background:$secondary;
+        border-color: $secondary;
+        &:hover{
+            background:$primary;
+        }
+    }
+
+    .dmv-logo{
+        font-weight:$font-weight-semibold
+    }
+    .select-language{
+        button{
+            background:none;
+            border-color:transparent;
+            color: $neutral-white;
+            svg{
+                fill: $neutral-white;
+            }
+        }
+      
+     
+    }
+}
+
+.dmv-nav{
+    font-size: $font-size-3;
+    button{
+        border: none;
+        color:$primary;
+        svg{
+            fill: $primary;
+        }
+        &:hover{
+            color:$secondary;
+        }
+    }
+}

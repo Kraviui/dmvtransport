@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:$font-family;
+
+}
+h1{
+   font-size: $font-size-8;
+   font-family:$font-family-poppins ;
+}
+
+h2{
+    font-size: $font-size-7;
+    font-family:$font-family-poppins ;
+    padding-bottom: 1.5rem;
+ }
+
+h3{
+    font-size: $font-size-6;
+    font-family:$font-family-poppins ;
+ }
+
+
+ h4{
+    font-size: $font-size-5;
+    font-family:$font-family-poppins ;
+ }
+
+h5{
+    font-size: $font-size-4;
+    font-family:$font-family-poppins ;
+ }
+
+.slds-col--padded{
+   padding: 0px!important;
+ 
+}
+// .comm-content-header {
+//    margin-top: -2rem;
+// }
+
+.browse-all{
+   color: $primary;
+   font-size: $font-size-4;
+   font-weight: $font-weight-medium;
+}
+
+//test
+.cDMVTheme{
+   display: initial;
+}

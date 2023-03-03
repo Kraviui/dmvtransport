@@ -1,0 +1,36 @@
+
+
+.text-very-small {
+    font-size: $font-size-1;
+    font-weight:$font-weight-light;
+}
+.text-small {
+    font-size: $font-size-2;
+    font-weight: $font-weight-light;
+}
+.paragraph {
+    font-size: $font-size-3;
+    font-weight: $font-weight-regular;
+}
+.page-heading-small{
+    font-size: $font-size-4; 
+    font-weight: $font-weight-bold;
+}
+.page-sub-heading{
+    font-size: $font-size-5; 
+    font-weight: $font-weight-bold;
+}
+.heading {
+    font-size: $font-size-6;
+    font-weight: $font-weight-medium;
+}
+
+.sub-heading {
+    font-size: $font-size-7;
+    font-weight: $font-weight-medium;
+}
+
+.main-heading {
+    font-size: $font-size-8;
+    font-weight: $font-weight-medium;
+}

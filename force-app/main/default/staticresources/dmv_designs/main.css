@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+.text-very-small {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.text-small {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.paragraph {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.page-heading-small {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.page-sub-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.dmv-header {
+  font-family: "Open Sans", sans-serif;
+  background: #121C44;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.dmv-header a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+.dmv-header button {
+  background: #D54401;
+  border-color: #D54401;
+}
+.dmv-header button:hover {
+  background: #121C44;
+}
+.dmv-header .dmv-logo {
+  font-weight: 600;
+}
+.dmv-header .select-language button {
+  background: none;
+  border-color: transparent;
+  color: #fff;
+}
+.dmv-header .select-language button svg {
+  fill: #fff;
+}
+
+.dmv-nav {
+  font-size: 1rem;
+}
+.dmv-nav button {
+  border: none;
+  color: #121C44;
+}
+.dmv-nav button svg {
+  fill: #121C44;
+}
+.dmv-nav button:hover {
+  color: #D54401;
+}
+
+.dmv-footer {
+  font-family: "Open Sans", sans-serif;
+  border-top: 2px solid #D54401;
+  color: #4B5563;
+}
+.dmv-footer p {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+.dmv-footer b {
+  display: block;
+}
+.dmv-footer a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  color: #4B5563;
+  text-decoration: none;
+  font-weight: 300;
+}
+.dmv-footer a:hover {
+  color: #D54401;
+}
+.dmv-footer li {
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+.dmv-footer .dmv-footer-logo p {
+  width: 14rem;
+}
+.dmv-footer .dmv-footer-logo span {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.dmv-footer .helpline-details b {
+  font-weight: 500;
+}
+
+.user-header {
+  font-family: "Open Sans", sans-serif;
+  background: #121C44;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.user-header a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+.user-header button {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+.user-header button:hover {
+  background: #121C44;
+}
+.user-header .dmv-logo {
+  font-weight: 600;
+}
+.user-header .select-language button {
+  background: none;
+  border-color: transparent;
+  color: #fff;
+}
+.user-header .select-language button svg {
+  fill: #fff;
+}
+
+.dmv-nav {
+  font-size: 1rem;
+}
+.dmv-nav button {
+  border: none;
+  color: #121C44;
+}
+.dmv-nav button svg {
+  fill: #121C44;
+}
+.dmv-nav button:hover {
+  color: #D54401;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.slds-col--padded {
+  padding: 0px !important;
+}
+
+.browse-all {
+  color: #121C44;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.cDMVTheme {
+  display: initial;
+}
+
+.user-content {
+  background: #F7F9FC;
+  height: 100vh;
+}
+
+.user-sidenavigation {
+  background: #fff;
+  height: 100vh;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+/*# sourceMappingURL=main.css.map */

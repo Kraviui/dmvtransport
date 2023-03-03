@@ -1,0 +1,58 @@
+<template>
+    <section class="user-header" tabindex="-1" >
+        <div class="slds-grid slds-grid_align-spread slds-container--x-large slds-container--center slds-grid--vertical-align-center slds-p-top_medium slds-p-bottom_medium">
+            <a href="#" title="Department Of Motor Vehicles" class="dmv-logo"><img src={dmvLogo} alt="Motor Vehicles logo" class="slds-p-right_medium "/>Department Of Motor Vehicles</a>
+            <div class="slds-grid slds-grid--vertical-align-center">
+            
+                <div  class="slds-p-right_large select-language">
+                  <img src={langvage} alt="English" >
+                  <lightning-button-menu alternative-text="Show menu" label="English">
+                    <lightning-menu-item value="English" label="English"></lightning-menu-item>
+                    <lightning-menu-item value="English" label="English"></lightning-menu-item>
+                </lightning-button-menu>
+    
+                </div>
+
+                <lightning-button-menu alternative-text="Show menu" label="John Doe">
+                    <lightning-menu-item value="Licenses" label="Settings"></lightning-menu-item>
+                    <lightning-menu-item value="Permitsn" label="Help"></lightning-menu-item>
+                </lightning-button-menu>
+                
+            </div>
+        </div>
+      </section>
+    <section class="dmv-nav"  tabindex="-1" >
+      <div class="slds-grid slds-grid_align-spread slds-container--x-large slds-container--center slds-grid--vertical-align-center slds-p-top_medium slds-p-bottom_medium">
+       
+        <lightning-button-menu alternative-text="Show menu" label="Licenses & Permits">
+          <lightning-menu-item value="Licenses" label="Licenses & Permits"></lightning-menu-item>
+          <lightning-menu-item value="Permitsn" label="Permits"></lightning-menu-item>
+      </lightning-button-menu>
+    
+      <lightning-button-menu alternative-text="Show menu" label="Registration">
+        <lightning-menu-item value="Licenses" label="New Registration"></lightning-menu-item>
+        <lightning-menu-item value="Permitsn" label="Registration Status"></lightning-menu-item>
+    </lightning-button-menu>
+    
+    <lightning-button-menu alternative-text="Show menu" label="Appointment">
+      <lightning-menu-item value="Licenses" label="New Appointment"></lightning-menu-item>
+      <lightning-menu-item value="Permitsn" label="Appointment Status"></lightning-menu-item>
+    </lightning-button-menu>
+    
+    
+    <lightning-button-menu alternative-text="Show menu" label="Vehicle & Registration History">
+      <lightning-menu-item value="Licenses" label="New Vehicle"></lightning-menu-item>
+      <lightning-menu-item value="Permitsn" label="Vehicle RegistrationStatus"></lightning-menu-item>
+    </lightning-button-menu>
+    
+    <lightning-button-menu alternative-text="Show menu" label="Real ID">
+      <lightning-menu-item value="Licenses" label="Real ID"></lightning-menu-item>
+    </lightning-button-menu>
+    
+    <lightning-button-menu alternative-text="Show menu" label="Other Services">
+      <lightning-menu-item value="Licenses" label="Test Preparation"></lightning-menu-item>
+    </lightning-button-menu>
+      </div>
+    
+    </section>
+</template>
