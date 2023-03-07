@@ -7,6 +7,10 @@ export default class SideNavigation extends LightningElement {
     get = dmvTheme + '/images/get.jpg';
     vision = dmvTheme + '/images/vision.jpg';
 
-    dash = dmvTheme + '/icons/dash.jpg';
-
+    dash = dmvTheme + '/icons/dash.svg';
+    documents = dmvTheme + '/icons/documents.svg';
+    programs = dmvTheme + '/icons/programs.svg';
+    profile = dmvTheme + '/icons/profile.svg';
+    time = dmvTheme + '/icons/time.svg';
+    support = dmvTheme + '/icons/support-icon.svg';
 }

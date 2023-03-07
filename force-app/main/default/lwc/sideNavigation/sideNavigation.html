@@ -1,6 +1,6 @@
 <template>
     <section class="user-sidenavigation">
-         <!-- <lightning-vertical-navigation selected-item="reports_recent">
+       <!-- <lightning-vertical-navigation selected-item="reports_recent">
             <lightning-vertical-navigation-section >
                 <lightning-vertical-navigation-item-icon
                     label="Dashboard"
@@ -36,19 +36,46 @@
           
             </lightning-vertical-navigation-section>
     
-        </lightning-vertical-navigation>  -->
+        </lightning-vertical-navigation> -->
 
-        <lightning-vertical-navigation>
+        <!-- <lightning-vertical-navigation>
             <lightning-vertical-navigation-section >
-                <lightning-vertical-navigation-item-badge label="Dashboard" name="dashboard" ></lightning-vertical-navigation-item-badge>
+                <lightning-vertical-navigation-item-badge label="Dashboard" name="dashboard" ></lightning-vertical-navigation-item-badge><img src={dash} />
                 <lightning-vertical-navigation-item label="All Applications" name="applications"></lightning-vertical-navigation-item>
                 <lightning-vertical-navigation-item label="Available Programs" name="available"></lightning-vertical-navigation-item>
                 <lightning-vertical-navigation-item label="Documents" name="documents"></lightning-vertical-navigation-item>
                 <lightning-vertical-navigation-item label="My Profile" name="profile"></lightning-vertical-navigation-item>
                 <lightning-vertical-navigation-item label="Help" name="help"></lightning-vertical-navigation-item>
             </lightning-vertical-navigation-section>
-        </lightning-vertical-navigation>
+        </lightning-vertical-navigation> -->
+
+        
+            <nav class="slds-nav-vertical" aria-label="Sub page">
+                <ul>
+                    <li class="slds-is-active">
+                        <a href="#" class="action">  <img src={dash} /> Dashboard </a>
+                    </li>
+                    <li>
+                        <a href="#" > <img src={time} /> All Application </a>
+                    </li>
+                    <li>
+                        <a href="#" > <img src={programs} /> Available Programs  </a>
+                    </li>
+                    <li>
+                        <a href="#">  <img src={documents} /> Documents </a>
+                    </li>
+                    <li>
+                        <a href="#" > <img src={profile} /> My Profile </a>
+                    </li>
+                    <li>
+                        <a href="#" > <img src={support} /> Help </a>
+                    </li>
+                </ul>
+            </nav>
     </section>
 
            <!--   icon-name={dash} ravi <img src={dash} />  -->
+
+
+           
 </template>

@@ -2,10 +2,15 @@
     <aura:attribute name="userHeader" type="Aura.Component[]" />
     <div class="dmv-theam">
        
-         <header  role="header">
+      
+      <div> 
+        <!-- {!v.header} -->
+        <header  role="header">
             <c:userHeader></c:userHeader> 
         </header>
-        <div class="content user-content">
+  
+       
+        <!-- <div class="content user-content">
             <div class="slds-grid">
                 <div class="slds-col slds-size_1-of-7">
                     <c:sideNavigation></c:sideNavigation>
@@ -13,6 +18,17 @@
                 </div>
                 <div class="slds-col">Right</div>
             </div>
+        </div> -->
+
+                <div class="content user-content">
+            <div class="slds-grid">
+                <div class="slds-col slds-size_1-of-7">
+                    <c:sideNavigation></c:sideNavigation>
+
+                </div>
+                <div class="slds-col"> {!v.body}</div>
+            </div>
+        </div> 
         </div>
 
     </div>

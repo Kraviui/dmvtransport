@@ -226,5 +226,164 @@ h5 {
   height: 100vh;
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
+.user-sidenavigation .slds-nav-vertical__item:hover {
+  background: #F3F6FF;
+}
+.user-sidenavigation nav li {
+  padding: 1rem;
+  cursor: pointer;
+}
+.user-sidenavigation nav li a {
+  color: #121C44;
+  text-decoration: none;
+}
+.user-sidenavigation nav li a svg {
+  fill: #121C44;
+}
+.user-sidenavigation nav li a img {
+  padding-right: 1rem;
+}
+.user-sidenavigation nav li:hover {
+  background: #F3F6FF;
+  border-right: 1px solid #121C44;
+}
+.user-sidenavigation nav .slds-is-active {
+  background: #F3F6FF;
+  border-right: 1px solid #121C44;
+}
+
+c-cf-need-your-attention {
+  font-family: "Open Sans", sans-serif;
+  min-width: 67rem;
+  max-width: 67rem;
+  float: left;
+}
+c-cf-need-your-attention .need-attention {
+  margin: 2rem 2rem 0rem 2rem;
+  padding: 1rem;
+  color: #121C44;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  border: none;
+}
+
+c-cf-open-applications {
+  font-family: "Open Sans", sans-serif;
+  min-width: 67rem;
+  max-width: 67rem;
+  float: left;
+}
+c-cf-open-applications .open-applications {
+  margin: 2rem 2rem 0rem 2rem;
+  padding: 1rem;
+  color: #121C44;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  border: none;
+}
+
+.subscribe-email {
+  font-family: "Open Sans", sans-serif;
+  min-width: 25rem;
+  max-width: 25rem;
+  margin: 2rem 2rem 0rem 2rem;
+  padding: 1rem;
+  float: right;
+  color: #121C44;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  border: none;
+}
+.subscribe-email label {
+  font-weight: bold;
+  color: #121C44;
+}
+.subscribe-email .vlocity-btn {
+  border-color: #121C44;
+  margin-left: -1rem;
+  padding: 0px 1rem;
+  margin-right: -1rem;
+  width: 100%;
+  display: inline-block;
+}
+
+.eligibility-results {
+  font-family: "Open Sans", sans-serif;
+  min-width: 25rem;
+  max-width: 25rem;
+  margin: 2rem 2rem 0rem 2rem;
+  padding: 1rem;
+  color: #121C44;
+  float: right;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  border: none;
+}
+.eligibility-results .retest-button {
+  margin-left: -1rem;
+  border-radius: 2px;
+}
+
+c-cf-application-overview-data .slds-wrap {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  background: transparent;
+}
+c-cf-application-overview-data .applicantion-overview {
+  border: none;
+  background: transparent;
+}
+c-cf-application-overview-data .applicantion-overview .overview-box {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  min-width: 60rem;
+  max-width: 60rem;
+  margin: 0.5rem 0rem 0rem -3rem;
+  padding: 1rem;
+  color: #121C44;
+  float: right;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  border: none;
+}
+c-cf-application-overview-data .applicantion-overview .radio-buttons-style {
+  border: 1px solid #121C44;
+  padding: 0.5em;
+  border-radius: 2px;
+  color: #121C44;
+}
+c-cf-application-overview-data .applicantion-overview .radio-buttons-style legend {
+  margin-bottom: 0.5rem;
+}
+c-cf-application-overview-data .applicantion-overview .radio-buttons-style span {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #121C44;
+  margin-right: 1rem;
+}
+c-cf-application-overview-data .applicantion-overview legend {
+  color: #121C44;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+c-cf-application-overview-data .applicantion-overview legend span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #121C44;
+}
+c-cf-application-overview-data .applicantion-overview .slds-radio_button [type=radio]:checked + .slds-radio_button__label {
+  color: #fff;
+  background: #121C44;
+}
+
+.page-stepers {
+  padding: 1rem;
+  float: left;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  min-width: 18rem;
+  max-width: 18rem;
+  margin-right: 2rem;
+}
+.page-stepers .slds-progress__item.slds-is-active .slds-progress__marker {
+  border-color: #121C44;
+}
 
 /*# sourceMappingURL=main.css.map */

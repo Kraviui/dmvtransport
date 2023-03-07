@@ -1,5 +1,36 @@
 .user-sidenavigation{
   background: $neutral-white;
   height: 100vh;
-  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.15);;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.15);
+  .slds-nav-vertical__item{
+    &:hover{
+        background:#F3F6FF;
+    }
+  }
+  nav{
+    li{
+        padding: 1rem;
+        cursor: pointer;
+        a{
+            color: $primary;
+            text-decoration: none;
+          
+            svg{
+                fill:$primary; 
+            }
+            img{
+                padding-right: 1rem;
+            }
+        }
+        &:hover{
+            background: #F3F6FF;
+            border-right: 1px solid $primary;
+        }
+    }
+    .slds-is-active{
+        background: #F3F6FF;
+        border-right: 1px solid $primary;
+    }
+  }
+
 }
